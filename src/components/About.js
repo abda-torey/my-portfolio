@@ -6,14 +6,15 @@ import ProgressBar from "./progressBar";
 const About = () => {
   const circleProgressData = [
     { language: "English", progress: 95 },
-    { language: "Russian", progress: 80 },
-    { language: "Arabic", progress: 90 },
+    { language: "Swahili", progress: 90 },
+    { language: "Somali", progress: 100 },
   ];
 
   const progressBarData = [
-    { bgcolor: "#7d7789", completed: 60, title: "HTML & CSS" },
-    { bgcolor: "#7d7789", completed: 85, title: "Javascript" },
-    { bgcolor: "#7d7789", completed: 90, title: "WordPress" },
+    { bgcolor: "#7d7789", completed: 90, title: "Javascript" },
+    { bgcolor: "#7d7789", completed: 85, title: "React" },
+    { bgcolor: "#7d7789", completed: 90, title: "NextJs" },
+    { bgcolor: "#7d7789", completed: 90, title: "Python" },
   ];
 
   const services = [
@@ -137,25 +138,31 @@ const About = () => {
               <div className="service_list w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
                   <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-                    Services
+                    Skills
                   </span>
                 </div>
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      Web Development
+                      Pandas
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      Graphic Design
+                      Sci-kit Learn
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      Landing Page
+                      Generative AI
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      On-Page SEO
+                      NLP
                     </li>
                     <li className="w-full float-left relative pl-[25px]">
-                      Web Hosting
+                      SQL
+                    </li>
+                    <li className="w-full float-left relative pl-[25px]">
+                      Tableau
+                    </li>
+                    <li className="w-full float-left relative pl-[25px]">
+                      Pytorch
                     </li>
                   </ul>
                 </div>
@@ -163,26 +170,24 @@ const About = () => {
               <div className="service_list w-[50%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
                   <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-                    Interests
+                    Data Tools
                   </span>
                 </div>
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      Painting &amp; Drawing
+                      AWS
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      Reading &amp; Writing
+                      Cassandra
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      Music &amp; Cinema
+                      Spark
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                      Travel &amp; Picnik
+                      Pyspark
                     </li>
-                    <li className="w-full float-left relative pl-[25px]">
-                      Rain &amp; Snow
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -192,8 +197,8 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
               <div className="programming w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-                  <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-                    Programming
+                  <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[3px]">
+                    Programming &amp; Libraries
                   </span>
                 </div>
                 <div className="cavani_progress w-full h-auto clear-both float-left mt-[55px]">
@@ -246,7 +251,7 @@ const About = () => {
           </div>
           <div className="resume w-full h-auto clear-both float-left mb-[75px]">
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
-              <div className="education w-[40%]">
+              <div className="education w-[60%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
                   <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
                     Education
@@ -259,14 +264,14 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2014 - 2016
+                              2023 - 2024
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Oxford Univercity
+                              Griffith College
                             </h3>
-                            <span className="text-[14px]">Master Degree</span>
+                            <span className="text-[14px]">Msc. Big Data Analytics</span>
                           </div>
                         </div>
                       </li>
@@ -274,34 +279,18 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2010 - 2014
+                              2013 - 2018
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Texas Univercity
+                              Kenyatta Univercity
                             </h3>
-                            <span className="text-[14px]">Bachelor Degree</span>
+                            <span className="text-[14px]">Bsc. Computer Science</span>
                           </div>
                         </div>
                       </li>
-                      <li className="w-full float-left relative pl-[20px]">
-                        <div className="list_inner w-full h-auto clear-both flex relative">
-                          <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2008 - 2010
-                            </span>
-                          </div>
-                          <div className="place w-1/2 pl-[20px]">
-                            <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Simone College
-                            </h3>
-                            <span className="text-[14px]">
-                              Associate Degree
-                            </span>
-                          </div>
-                        </div>
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -351,7 +340,7 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2012 - 2015
+                              2018 - 2019
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
