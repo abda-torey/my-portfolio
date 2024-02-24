@@ -51,30 +51,32 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
               <div className="left w-[40%]">
                 <p className="mb-[15px]">
-                  Hi, I'm <strong>Abdiaziz.</strong> With over <strong>5 years </strong> of
-                  experience in software development, my journey began with
-                  Vue.js, and I quickly transitioned to <strong>React</strong> and then Next.js
+                  Hi, I'm <strong>Abdiaziz.</strong> With over{" "}
+                  <strong>5 years </strong> of experience in software
+                  development, my journey began with Vue.js, and I quickly
+                  transitioned to <strong>React</strong> and then Next.js
                   framework, gaining proficiency in various front-end
                   technologies along the way. However, my passion for data
                   science led me to pursue a new path.
                 </p>
                 <p>
-                  I have completed my <strong>Master's degree</strong> in Big Data Analytics at
-                  Griffith College Dublin, graduating with second-class honors.
-                  Throughout my academic journey, I've honed my skills in
-                  Python, particularly utilizing Flask for various projects.
-                  Additionally, I have acquired extensive expertise in a
-                  multitude of machine learning models, including regression,
-                  classification, as well as advanced techniques such as deep
-                  learning with <strong>KNN, NLP, and generative AI </strong> models like Keras.
+                  I have completed my <strong>Master's degree</strong> in Big
+                  Data Analytics at Griffith College Dublin, graduating with
+                  second-class honors. Throughout my academic journey, I've
+                  honed my skills in Python, particularly utilizing Flask for
+                  various projects. Additionally, I have acquired extensive
+                  expertise in a multitude of machine learning models, including
+                  regression, classification, as well as advanced techniques
+                  such as deep learning with{" "}
+                  <strong>KNN, NLP, and generative AI </strong> models like
+                  Keras.
                 </p>
                 <p>
-                  In addition to my academic pursuits, I'm also an <strong>AWS Solutions
-                  Architect </strong> certified professional. I have hands-on experience
-                  in deploying models on AWS and scaling solutions to meet
-                  evolving needs.
+                  In addition to my academic pursuits, I'm also an{" "}
+                  <strong>AWS Solutions Architect </strong> certified
+                  professional. I have hands-on experience in deploying models
+                  on AWS and scaling solutions to meet evolving needs.
                 </p>
-                
               </div>
               <div className="right w-[50%]">
                 <ul>
@@ -82,15 +84,15 @@ const About = () => {
                     <span className="first inline-block min-w-[100px] font-bold">
                       Name:
                     </span>
-                    <span className="second inline-block">Abdiaziz Mohamed</span>
+                    <span className="second inline-block">
+                      Abdiaziz Mohamed
+                    </span>
                   </li>
                   <li className="mb-[8px] w-full float-left">
                     <span className="first inline-block min-w-[100px] font-bold">
                       Address:
                     </span>
-                    <span className="second inline-block">
-                      Dublin, Ireland
-                    </span>
+                    <span className="second inline-block">Dublin, Ireland</span>
                   </li>
                   <li className="mb-[8px] w-full float-left">
                     <span className="first inline-block min-w-[100px] font-bold">
@@ -187,7 +189,6 @@ const About = () => {
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
                       Pyspark
                     </li>
-                    
                   </ul>
                 </div>
               </div>
@@ -271,7 +272,9 @@ const About = () => {
                             <h3 className="text-[16px] mb-[2px] font-semibold">
                               Griffith College
                             </h3>
-                            <span className="text-[14px]">Msc. Big Data Analytics</span>
+                            <span className="text-[14px]">
+                              Msc. Big Data Analytics
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -286,16 +289,17 @@ const About = () => {
                             <h3 className="text-[16px] mb-[2px] font-semibold">
                               Kenyatta Univercity
                             </h3>
-                            <span className="text-[14px]">Bsc. Computer Science</span>
+                            <span className="text-[14px]">
+                              Bsc. Computer Science
+                            </span>
                           </div>
                         </div>
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="experience w-1/2">
+              <div className="experience w-full">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
                   <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
                     Experience
@@ -304,50 +308,197 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left">
                   <div className="univ w-full h-auto clear-both float-left mt-[55px]">
                     <ul className="relative inline-block pt-[10px]">
-                      <li className="w-full float-left relative pl-[20px] pb-[45px]">
-                        <div className="list_inner w-full h-auto clear-both flex relative">
-                          <div className="time w-1/2 pr-[20px]">
+                      <li className=" middle:hidden laptop:hidden w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex  relative">
+                          <div className="time w-1/3 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2018 - running
+                              2023 - Part-time
                             </span>
                           </div>
-                          <div className="place w-1/2 pl-[20px]">
-                            <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Envato Elements
+                          <div className="place w-2/3 pl-[20px]">
+                            <h3 className="text-[16px] md:text-[16px] mb-[2px] font-semibold">
+                              Developer - Merville
                             </h3>
                             <span className="text-[14px]">
-                              Exclusive Author
+                              Used NextJs to Eengineer a comprehensive fashion website for
+                              Merville, incorporating Stripe for secure payment
+                              processing. Designed an admin dashboard to
+                              streamline order, sales, and user management.
+                              Implemented Clerk.js for robust authentication
+                              across both the main website and admin dashboard.
                             </span>
                           </div>
                         </div>
                       </li>
-                      <li className="w-full float-left relative pl-[20px] pb-[45px]">
-                        <div className="list_inner w-full h-auto clear-both flex relative">
-                          <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2015 - 2018
+                      {/* mobile view */}
+                      <li className=" hidden middle:block w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex flex-col  relative">
+                          <div className=" flex ">
+                            <div className="time w-1/2 pr-[20px]">
+                              <span className="w inline-block py-[5px] px-[15px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                                2023 - Part-time
+                              </span>
+                            </div>
+                            <div className="place w-1/2 pl-[20px] ">
+                              <h3 className="text-[14px] mb-[2px] mt-2  font-semibold">
+                                Developer - Merville
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="place w-2/3 pl-[20px]">
+                            <span className="text-[14px]">
+                            Used NextJs to Eengineer a comprehensive fashion website for
+                              Merville, incorporating Stripe for secure payment
+                              processing. Designed an admin dashboard to
+                              streamline order, sales, and user management.
+                              Implemented Clerk.js for robust authentication
+                              across both the main website and admin dashboard.
                             </span>
                           </div>
-                          <div className="place w-1/2 pl-[20px]">
-                            <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Avo Corporation
+                        </div>
+                      </li>
+                      <li className=" middle:hidden laptop:hidden w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex  relative">
+                          <div className="time w-1/3 pr-[20px]">
+                            <span className="inline-block py-[5px] px-[25px] tracking-widest bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                              2021 - 2023
+                            </span>
+                          </div>
+                          <div className="place w-2/3 pl-[20px]">
+                            <h3 className="text-[16px] md:text-[16px] mb-[2px] font-semibold">
+                              Full-Stack - Afrigate Cargo
                             </h3>
-                            <span className="text-[14px]">Content Manager</span>
+                            <span className="text-[14px]">
+                              Leveraged Next.js to engineer a comprehensive
+                              website, incorporating a real-time package
+                              tracking system and an advanced cost estimation
+                              tool for clients, enhancing user experience and
+                              operational efficiency.
+                            </span>
                           </div>
                         </div>
                       </li>
-                      <li className="w-full float-left relative pl-[20px]">
-                        <div className="list_inner w-full h-auto clear-both flex relative">
-                          <div className="time w-1/2 pr-[20px]">
+                      {/* mobile view */}
+                      <li className=" hidden middle:block w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex flex-col  relative">
+                          <div className=" flex ">
+                            <div className="time w-1/3 pr-[20px]">
+                              <span className="w inline-block py-[5px] px-[15px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                                2021 - 2023
+                              </span>
+                            </div>
+                            <div className="place w-2/3 pl-[20px] ">
+                              <h3 className="text-[14px] mb-[2px] mt-2  font-semibold">
+                                Full-Stack - Afrigate Cargo
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="place w-2/3 pl-[20px]">
+                            <span className="text-[14px]">
+                              Leveraged Next.js to engineer a comprehensive
+                              website, incorporating a real-time package
+                              tracking system and an advanced cost estimation
+                              tool for clients, enhancing user experience and
+                              operational efficiency.
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                      <li className=" middle:hidden laptop:hidden w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex  relative">
+                          <div className="time w-1/3 pr-[20px]">
+                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                              2019 - 2021
+                            </span>
+                          </div>
+                          <div className="place w-2/3 pl-[20px]">
+                            <h3 className="text-[16px] md:text-[16px] mb-[2px] font-semibold">
+                              FrontEnd Dev - Mega WholeSalers
+                            </h3>
+                            <span className="text-[14px]">
+                              Worked alongside backend developers to develop a
+                              fleet management system using react enabling
+                              real-time vehicle tracking, remote vehicle
+                              shutdown, and real-time fuel monitoring.
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                      {/* mobile view */}
+                      <li className=" hidden middle:block w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex flex-col  relative">
+                          <div className=" flex ">
+                            <div className="time w-1/3 pr-[20px]">
+                              <span className="w inline-block py-[5px] px-[15px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                                2019 - 2021
+                              </span>
+                            </div>
+                            <div className="place w-2/3 pl-[20px] ">
+                              <h3 className="text-[14px] mb-[2px] mt-2  font-semibold">
+                                FrontEnd Dev - Mega 
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="place w-2/3 pl-[20px]">
+                            <span className="text-[14px]">
+                              Worked alongside backend developers to develop a
+                              fleet management system using react enabling
+                              real-time vehicle tracking, remote vehicle
+                              shutdown, and real-time fuel monitoring.
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                      <li className=" middle:hidden laptop:hidden w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex  relative">
+                          <div className="time w-1/3 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
                               2018 - 2019
                             </span>
                           </div>
-                          <div className="place w-1/2 pl-[20px]">
-                            <h3 className="text-[16px] mb-[2px] font-semibold">
-                              FC Barcelona
+                          <div className="place w-2/3 pl-[20px]">
+                            <h3 className="text-[16px] md:text-[16px] mb-[2px] font-semibold">
+                              Internship - Mega WholeSalers
                             </h3>
-                            <span className="text-[14px]">Football Player</span>
+                            <span className="text-[14px]">
+                              Contributed to the development of a Vue.js-based
+                              dashboard for the Product Design team,
+                              streamlining the process of uploading images for
+                              the e-commerce site. Crafted a user-friendly
+                              interface to guarantee image uploads adhered to
+                              established criteria. Utilized an API, provided by
+                              the backend team, for secure image storage on an
+                              in-house cloud server.
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                      {/* mobile view */}
+                      <li className=" hidden middle:block w-full float-left relative pl-[20px] pb-[45px]">
+                        <div className=" list_inner w-full h-auto clear-both flex flex-col  relative">
+                          <div className=" flex ">
+                            <div className="time w-1/3 pr-[20px]">
+                              <span className="w inline-block py-[5px] px-[15px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                                2018 - 2019
+                              </span>
+                            </div>
+                            <div className="place w-2/3 pl-[20px] ">
+                              <h3 className="text-[14px] mb-[2px] mt-2  font-semibold">
+                                Internship - Mega 
+                              </h3>
+                            </div>
+                          </div>
+                          <div className="place w-2/3 pl-[20px]">
+                            <span className="text-[14px]">
+                              Contributed to the development of a Vue.js-based
+                              dashboard for the Product Design team,
+                              streamlining the process of uploading images for
+                              the e-commerce site. Crafted a user-friendly
+                              interface to guarantee image uploads adhered to
+                              established criteria. Utilized an API, provided by
+                              the backend team, for secure image storage on an
+                              in-house cloud server
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -357,193 +508,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="partners w-full h-auto clear-both float-left mb-[92px]">
-            <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-                Partners
-              </span>
-            </div>
-            <div className="list w-full clear-both float-left overflow-hidden border-solid border-[#E5EDF4] border-2 mt-[62px]">
-              <ul className="mt-[-2px] mr-[-10px] mb-[-2px] ml-[-2px] pt-[2px] float-left pl-[2px]">
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/1.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/2.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/3.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/4.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/5.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/1.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/2.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-                <li className="float-left w-1/4 border-solid border-[#E5EDF4] border-2 text-center h-[130px] leading-[130px] relative mt-[-2px] ml-[-2px] overflow-hidden">
-                  <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
-                    <img
-                      className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/3.png"
-                      alt="image"
-                    />
-                    <a className="cavani_tm_full_link" href="#" />
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="testimonials w-full h-auto clear-both float-left mb-[90px]">
-            <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-                Testimonials
-              </span>
-            </div>
-            <div className="list w-full h-auto clear-both float-left mt-[75px]">
-              <Swiper
-                slidesPerView={1}
-                spaceBetween={30}
-                loop={true}
-                breakpoints={{
-                  768: {
-                    slidesPerView: 2,
-                  },
-                }}
-                className="cursor-e-resize custom-class"
-              >
-                <SwiperSlide>
-                  <div className="list_inner w-full h-auto clear-both float-left relative">
-                    <div className="text w-full h-auto clear-both float-left relative border-solid border-[#E5EDF4] border-2 p-[40px] mb-[30px]">
-                      <i className="icon-quote-left absolute z-[1] text-[30px] top-[-29px] left-[50px]" />
-                      <p>
-                        Beautiful minimalist design and great, fast response
-                        with support. Highly recommend. Thanks Marketify!
-                      </p>
-                    </div>
-                    <div className="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
-                      <div className="image relative w-[60px] h-[60px]">
-                        <div
-                          className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full"
-                          data-img-url="assets/img/testimonials/1.jpg"
-                        />
-                      </div>
-                      <div className="info pl-[20px]">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Alexander Walker
-                        </h3>
-                        <span className="text-[14px]">Graphic Designer</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="list_inner w-full h-auto clear-both float-left relative">
-                    <div className="text w-full h-auto clear-both float-left relative border-solid border-[#E5EDF4] border-2 p-[40px] mb-[30px]">
-                      <i className="icon-quote-left absolute z-[1] text-[30px] top-[-29px] left-[50px]" />
-                      <p>
-                        These people really know what they are doing! Great
-                        customer support availability and supperb kindness.
-                      </p>
-                    </div>
-                    <div className="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
-                      <div className="image relative w-[60px] h-[60px]">
-                        <div
-                          className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full"
-                          data-img-url="assets/img/testimonials/2.jpg"
-                        />
-                      </div>
-                      <div className="info pl-[20px]">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Armin Van Buuren
-                        </h3>
-                        <span className="text-[14px]">Content Manager</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="list_inner w-full h-auto clear-both float-left relative">
-                    <div className="text w-full h-auto clear-both float-left relative border-solid border-[#E5EDF4] border-2 p-[40px] mb-[30px]">
-                      <i className="icon-quote-left absolute z-[1] text-[30px] top-[-29px] left-[50px]" />
-                      <p>
-                        I had a little problem and the support was just awesome
-                        to quickly solve the situation. And keep going on.
-                      </p>
-                    </div>
-                    <div className="details w-full h-auto clear-both float-left flex items-center pl-[20px]">
-                      <div className="image relative w-[60px] h-[60px]">
-                        <div
-                          className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-full"
-                          data-img-url="assets/img/testimonials/3.jpg"
-                        />
-                      </div>
-                      <div className="info pl-[20px]">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Baraka Clinton
-                        </h3>
-                        <span className="text-[14px]">English Teacher</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
+          
         </div>
       </div>
     </SectionContainer>
