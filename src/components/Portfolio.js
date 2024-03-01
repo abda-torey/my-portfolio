@@ -5,6 +5,7 @@ import SectionContainer from "../layout/SectionContainer";
 import { dataImage } from "../utils";
 import ImageView from "./ImagePopup";
 import { Detail, Soundcloud } from "./Popup";
+import { FaLink, FaGithub } from "react-icons/fa";
 
 const Portfolio = () => {
   const ModalVideo = dynamic(
@@ -109,7 +110,7 @@ const Portfolio = () => {
                     data-filter=".vimeo"
                     onClick={handleFilterKeyChange("vimeo")}
                   >
-                    Vimeo
+                    Machine Learning
                   </a>
                 </li>
                 <li className="mr-[40px] inline-block">
@@ -119,7 +120,7 @@ const Portfolio = () => {
                     data-filter=".youtube"
                     onClick={handleFilterKeyChange("youtube")}
                   >
-                    Youtube
+                    React-Nextjs
                   </a>
                 </li>
                 <li className="mr-[40px] inline-block">
@@ -129,7 +130,7 @@ const Portfolio = () => {
                     data-filter=".soundcloud"
                     onClick={handleFilterKeyChange("soundcloud")}
                   >
-                    Soundcloud
+                    Python
                   </a>
                 </li>
                 <li className="mr-[40px] inline-block">
@@ -139,17 +140,7 @@ const Portfolio = () => {
                     data-filter=".image"
                     onClick={handleFilterKeyChange("image")}
                   >
-                    Image
-                  </a>
-                </li>
-                <li className="inline-block">
-                  <a
-                    href="#"
-                    className="text-[#333] font-poppins font-medium transition-all duration-300"
-                    data-filter=".detail"
-                    onClick={handleFilterKeyChange("detail")}
-                  >
-                    Detail
+                    Tableau
                   </a>
                 </li>
               </ul>
@@ -221,17 +212,24 @@ const Portfolio = () => {
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
                         data-img-url="assets/img/portfolio/3.jpg"
                       />
-                      <div className="details">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Ashley Flores
-                        </h3>
-                        <span className="text-[14px]">Soundcloud</span>
+                      <div className="details flex justify-evenly ">
+                        <a
+                          href="https://example.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-8xl " // Adjust the size as needed
+                        >
+                          <FaLink />
+                        </a>
+                        <a
+                          href="https://github.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-8xl" 
+                        >
+                          <FaGithub />
+                        </a>
                       </div>
-                      <a
-                        className="cavani_tm_full_link soundcloude_link mfp-iframe audio"
-                        href="#"
-                        onClick={toggleModalThree}
-                      />
                     </div>
                   </div>
                 </li>
