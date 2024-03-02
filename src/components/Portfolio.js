@@ -183,19 +183,17 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/2.jpg"
-                        onClick={() => setIsOpen2(true)}
+                        data-img-url="assets/img/portfolio/preview.png"
                       />
                       <div className="details">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Kelly Hookin
-                        </h3>
-                        <span className="text-[14px]">Vimeo</span>
+                        <span className="text-[14px]">
+                          Whatsapp Group Analysis
+                        </span>
                       </div>
                       <a
                         className="cavani_tm_full_link popup-vimeo"
-                        href="#"
-                        onClick={() => setIsOpen2(true)}
+                        href="https://nbviewer.org/github/abda-torey/kenya_group_analysis/blob/main/eire%20kenya%20chat%20group%20analysis.ipynb"
+                        target="_blank"
                       />
                     </div>
                   </div>
@@ -210,11 +208,16 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/3.jpg"
+                        data-img-url="assets/img/portfolio/f1.jpg"
                       />
-                      <div className="details flex justify-evenly ">
+                      
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[15px]  text-center   font-semibold" >
+                          Formula 1 System 
+                        </h3>
+                        <div className="flex justify-evenly ">
                         <a
-                          href="https://example.com"
+                          href="https://github.com/abda-torey/F1-flask/tree/main"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-8xl " // Adjust the size as needed
@@ -222,13 +225,57 @@ const Portfolio = () => {
                           <FaLink />
                         </a>
                         <a
-                          href="https://github.com"
+                          href="https://github.com/abda-torey/F1-flask/tree/main"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-8xl" 
+                          className="text-8xl"
                         >
                           <FaGithub />
                         </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li className="soundcloud mb-[50px] w-1/2 float-left pl-[50px] item__">
+                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
+                    <div className="image relative">
+                      <img
+                        className="relative opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt
+                      />
+                      <div
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
+                        data-img-url="assets/img/portfolio/instagram.png"
+                      />
+
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[15px]  text-center   font-semibold" >
+                          Instagram Clone
+                        </h3>
+                        <div className="flex justify-evenly ">
+                          <div >
+                            <a
+                              href="https://github.com/abda-torey/instagram"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-8xl " // Adjust the size as needed
+                            >
+                              <FaLink />
+                            </a>
+                          </div>
+                          <div>
+                            <a
+                              href="https://github.com/abda-torey/instagram"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-8xl"
+                            >
+                              <FaGithub />
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

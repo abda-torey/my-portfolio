@@ -1,7 +1,7 @@
 import { CavaniContext } from "@/src/Context";
 import About from "@/src/components/About";
 import Contact from "@/src/components/Contact";
-import News from "@/src/components/News";
+import News from "@/src/components/Articles";
 import Service from "@/src/components/Service";
 import Layout from "@/src/layout/Layout";
 import dynamic from "next/dynamic";

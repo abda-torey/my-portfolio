@@ -9,8 +9,7 @@ const navs = [
   { id: 1, name: "Home", href: "home" },
   { id: 2, name: "About", href: "about" },
   { id: 3, name: "Portfolio", href: "portfolio" },
-  { id: 4, name: "Service", href: "service" },
-  { id: 5, name: "News", href: "news" },
+  { id: 5, name: "Articles", href: "articles" },
   { id: 6, name: "Contact", href: "contact" },
 ];
 
@@ -21,10 +20,10 @@ const Header = () => {
     <Fragment>
       <div className="cavani_tm_topbar fixed top-0 left-0 right-0 h-[50px] bg-white z-[15] hidden middle:block">
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
-          <div className="logo" data-type="image">
+          <div className="logo" data-type="text">
             {" "}
             {/* You can use text or image as logo. data-type values are: "image" and "text"  */}
-            <a className="image" href="#">
+            <a className="image" href="/">
               <img
                 className="max-w-[100px] max-h-[40px]"
                 src="assets/img/logo/dark.png"
@@ -33,9 +32,9 @@ const Header = () => {
             </a>
             <a
               className="text text-black uppercase font-poppins text-[22px] font-extrabold tracking-[2px] leading-[50px]"
-              href="#"
+              href="/"
             >
-              <span>Cavani</span>
+              <span>Abdiaziz</span>
             </a>
           </div>
           <div className="trigger relative top-[5px]">
@@ -138,27 +137,27 @@ const Header = () => {
               </ul>
             </div>
             <div className="copyright w-full float-left">
-              <p className="text-[#333] font-poppins">Copyright © 2023</p>
+              <p className="text-[#333] font-poppins">Copyright © 2024</p>
             </div>
           </div>
         </div>
       </div>
       <div className="cavani_tm_header fixed top-0 left-0 right-0 h-[70px] leading-[70px] bg-white z-[10] flex items-center justify-between py-0 px-[70px] middle:hidden">
-        <div className="logo" data-type="image">
+        <div className="logo" data-type="text">
           {" "}
           {/* You can use text or image as logo. data-type values are: "image" and "text"  */}
-          <a className="image" href="#">
+          {/* <a className="image" href="#">
             <img
               className="max-w-[110px] max-h-[65px] inline-block"
               src="assets/img/logo/dark.png"
               alt="image"
             />
-          </a>
+          </a> */}
           <a
             className="text no-underline text-black uppercase font-poppins text-[25px] font-extrabold tracking-[2px] leading-[70px]"
-            href="#"
+            href="/"
           >
-            <span className="relative top-[2px]">Cavani</span>
+            <span className="relative top-[2px]">Abdiaziz</span>
           </a>
         </div>
         <div className="menu relative">
