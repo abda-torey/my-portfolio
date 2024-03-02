@@ -712,10 +712,16 @@ h6 {
 }
 
 .cavani_tm_button {
-  float: left;
+  margin-right: 5px;
   clear: both;
   height: auto;
-  width: 100%;
+  
+}
+.cavani_tm_button_download {
+ 
+  clear: both;
+  height: auto;
+  
 }
 
 .cavani_tm_button a {
@@ -738,11 +744,48 @@ h6 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
 }
+.cavani_tm_button_download a {
+  display: inline-block;
+  border-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(51 51 51 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: white;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: black;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
 
 .cavani_tm_button a:hover {
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+.cavani_tm_button_download a:hover {
+  background-color: rgb(255, 244, 244);
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .cavani_tm_button a, .cavani_tm_button_download a {
+    padding-left: 20px; /* Reduced padding for smaller screens */
+    padding-right: 20px; /* Reduced padding for smaller screens */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 150px; /* Set a minimum width */
+    text-align: center;
+  }
 }
 
 .cd-headline.clip .cd-words-wrapper::after {
