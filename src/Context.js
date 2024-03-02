@@ -40,6 +40,7 @@ const CavaniState = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const navChange = useCallback((value) => {
+    console.log(`navChange called with value: ${value}`);
     dispatch({
       type: NAV,
       payload: value,

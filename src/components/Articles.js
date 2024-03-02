@@ -114,12 +114,12 @@ const Articles = () => {
 
   return (
     <Fragment>
-      <SectionContainer navName="news">
+      <SectionContainer navName="articles">
         <div className="section_inner">
           <div className="cavani_tm_news w-full h-auto clear-both float-left mb-[70px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
               <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-                Latest News
+                My Articles
               </span>
             </div>
             <div className="news_list w-full h-auto clear-both float-left mt-[60px]">

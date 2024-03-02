@@ -18,7 +18,7 @@ const Contact = () => {
                     src="assets/img/svg/location.svg"
                     alt="image"
                   />
-                  <span className="block">Ave Street, New York, USA</span>
+                  <span className="block">Park west, Dublin, Ireland</span>
                 </div>
               </li>
               <li className="mb-[30px] w-1/3 pl-[30px]">
@@ -33,12 +33,12 @@ const Contact = () => {
                       className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                       href="#"
                     >
-                      hello@cavani.com
+                      abdatorey@gmail.com
                     </a>
                   </span>
                 </div>
               </li>
-              <li className="mb-[30px] w-1/3 pl-[30px]">
+              {/* <li className="mb-[30px] w-1/3 pl-[30px]">
                 <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[rgba(0,0,0,.07)] border text-center py-[32px] px-[25px]">
                   <img
                     className="svg inline-block w-[18px] h-[18px] mb-[10px]"
@@ -47,7 +47,7 @@ const Contact = () => {
                   />
                   <span className="block">+77 022 444 05 05</span>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="form w-full h-auto clear-both flex">
@@ -104,38 +104,39 @@ const Contact = () => {
             </div>
             <div className="right w-1/2 pl-[15px] relative">
               <div className="map_wrap">
-                <div className="mapouter">
-                  <div className="gmap_canvas">
+                <div
+                  className="mapouter"
+                  style={{
+                    position: "relative",
+                    textAlign: "right",
+                    height: "500px",
+                    width: "100%",
+                  }}
+                >
+                  <div
+                    className="gmap_canvas"
+                    style={{
+                      overflow: "hidden",
+                      background: "none!important",
+                      height: "500px",
+                      width: "100%",
+                    }}
+                  >
                     <iframe
                       width="100%"
-                      height={355}
+                      height={500}
                       id="gmap_canvas"
-                      src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                      frameBorder={0}
+                      src="https://maps.google.com/maps?q=park%20west%20dublin%20ireland&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      frameBorder="0"
                       scrolling="no"
                       marginHeight={0}
                       marginWidth={0}
-                    />
-                    <a href="https://fmovies-online.net">fmovies</a>
-                    <br />
-                    <style
-                      dangerouslySetInnerHTML={{
-                        __html:
-                          ".mapouter{position:relative;text-align:right;height:355px;width:100%;}",
-                      }}
-                    />
+                    ></iframe>
                     <a href="https://www.embedgooglemap.net">
-                      embedgooglemap.net
+                      embed google maps on website
                     </a>
-                    <style
-                      dangerouslySetInnerHTML={{
-                        __html:
-                          ".gmap_canvas {overflow:hidden;background:none!important;height:355px;width:100%;}",
-                      }}
-                    />
                   </div>
                 </div>
-                {/* Get your API here https://www.embedgooglemap.net */}
               </div>
             </div>
           </div>
