@@ -6,7 +6,7 @@ import { dataImage } from "../utils";
 import ImageView from "./ImagePopup";
 import { Detail, Soundcloud } from "./Popup";
 import { FaLink, FaGithub } from "react-icons/fa";
-import { ModalDialog } from "react-bootstrap";
+
 
 const Portfolio = () => {
   const ModalVideo = dynamic(
