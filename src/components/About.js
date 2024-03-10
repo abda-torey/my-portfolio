@@ -493,7 +493,7 @@ const About = () => {
                               Contributed to the development of a Vue.js-based
                               dashboard for the Product Design team,
                               streamlining the process of uploading images for
-                              the e-commerce site. Crafted a user-friendly
+                              our e-commerce site. Crafted a user-friendly
                               interface to guarantee image uploads adhered to
                               established criteria. Utilized an API, provided by
                               the backend team, for secure image storage on an
